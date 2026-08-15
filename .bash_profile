@@ -11,7 +11,7 @@
       fi
   fi
 
-  umask 007
+  umask 006
   export PATH="$PATH:$HOME/usercommands"
   echo "The current date is: $(date -u '+%Y-%m-%dT%H:%M:%S+00:00')"
   alias ltxt='ls -- *.txt'
